@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Div, span, id and class</title>
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .enhance {
+        color: yellow;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-header" class="card">
+      <h1>My Website</h1>
+      <p>A site about me</p>
+    </div>
+    <ul id="main-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+      <h3>About</h3>
+      <!-- Div's are block level and spans are inline. -->
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+        voluptatum <span class="enhance">unde nam corporis vitae commodi iusto, doloremque facere,
+        veritatis delectus iure repellat officia dicta molestiae</span> consectetur est
+        architecto? Cum, id!
+      </p>
+      <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+          voluptatum <div class="enhance">unde nam corporis vitae commodi iusto, doloremque facere,
+          veritatis delectus iure repellat officia dicta molestiae</div> consectetur est
+          architecto? Cum, id!
+        </p>
+    </div>
+    <div id="contact" class="card">
+      <h3>Contact Me</h3>
+      <ul>
+        <li>Address: 555 North Street, Boston MA</li>
+        <li>Phone: (555)555-5555</li>
+        <li>Email: me@email.com</li>
+      </ul>
+    </div>
+    <div id="footer">
+      <p>Copyright 2019</p>
+    </div>
+  </body>
+</html>
